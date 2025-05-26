@@ -14,9 +14,9 @@ This project demonstrates how to automate code deployment using GitHub Actions a
 - Stored DockerHub credentials in GitHub Secrets (`DOCKER_USERNAME`, `DOCKER_PASSWORD`).
 
 ## DockerHub Repository
-[View Image on DockerHub](https://hub.docker.com/r/George7177/nodejs-demo-app)
+[View Image on DockerHub](https://hub.docker.com/r/george7177/nodejs-demo-app)
 
 ## How to Run
 ```bash
-docker pull George7177/nodejs-demo-app
-docker run -p 3000:3000 George7177/nodejs-demo-app
+docker pull george7177/nodejs-demo-app
+docker run -p 3000:3000 george7177/nodejs-demo-app
